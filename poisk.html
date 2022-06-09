@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="https://fom.in.ua/echo"> 
+    <span><b>Тип кузова</b></span>
+        <select name="kuzov">
+            <option>Выберите кузов</option>
+            <option value="station_wagon">Универсал</option> 
+            <option value="miniven">Минивэн</option>
+            <option value="cross">Кроссовер</option>
+            <option value="cupe">Купе</option> 
+            <option value="sedan">Седан</option>
+            <option value="pikap">Пикап</option>
+            <option value="other">Другой</option>
+        </select> 
+        <br>
+    <span><b> Марка </b></span>
+        <select name="brand">
+            <option>Выберите марку</option>
+            <option value="audi">Audi</option> 
+            <option value="bmw">BMW</option> 
+            <option value="mazda">Mazda</option>
+            <option value="mercedes">Mercedes-Benz</option>
+            <option value="toyota">Toyota</option>
+            <option value="ford">Ford</option> 
+            <option value="suzuki">Suzuki</option>
+            <option value="honda">Honda</option> 
+            <option value="kia">Kia</option>
+            <option value="nissan">Nissan</option>
+            <option value="skoda">Skoda</option>
+            <option value="volkswagen">Volkswagen</option>
+        </select>
+        <br>
+    <span><b> Страна </b></span>
+        <select name="country">
+           <option>Выберите страну</option>
+           <option value="ger">Германия</option> 
+           <option value="sweden">Швеция</option>
+           <option value="usa">США</option> 
+           <option value="eng">Англия</option>
+           <option value="ital">Италия</option>
+           <option value="france">Франция</option>
+           <option value="jap">Япония</option>
+           <option value="korea">Корея</option> 
+           <option value="сhina">Китай</option>
+           <option value="сzech">Чехия</option>  
+        </select>
+        <br>
+    <span><b>Стоимость</b></span>
+             <input type="text" name="cost_from" placeholder="от">
+             <input type="text" name="cost_bef" placeholder="до">
+             <select name="valuta">
+                 <option value="uah">UAH</option> 
+                 <option value="usd">USD</option> 
+                 <option value="eur">EUR</option>                
+            </select> 
+            <br>
+     <span><b>Год выпуска</b></span>
+            <label><input type="text" name="year_from" placeholder="от"></label>
+            <label><input type="text" name="year_bef" placeholder="до"></label>
+            <br>
+     <span><b>Состояние</b></span>
+            <label><input type="checkbox" name="state" value="new">Новые</label>
+            <label><input type="checkbox" name="state" value="old">Б/у</label>
+            <label><input type="checkbox" name="state" value="not_cleared">Не растаможеная</label> 
+            <label><input type="checkbox" name="state" value="all">Все</label>
+            <br>
+     <b><span>Тип топлива</span></b>
+                <label><input type="checkbox" name="fuel" value="benz">Бензин</label>
+                <label><input type="checkbox" name="fuel" value="diz">Дизель</label>
+                <label><input type="checkbox" name="fuel" value="electro">Электро</label>
+                <label><input type="checkbox" name="fuel" value="anoth">Другое</label>
+                <br>
+     <span><b>Коробка передач</b></span>
+                <label><input type="checkbox" name="kpp" value="mehanika">Механика</label>
+                <label><input type="checkbox" name="kpp" value="avtomat">Автомат</label>
+                <label><input type="checkbox" name="kpp" value="tiptron">Типтроник</label>
+                <br>
+     <span><b>Цвет</b></span>
+            <select name="color">
+                 <option>Выберите цвет</option>
+                 <option value="wht">Белый</option> 
+                 <option value="black">Черный</option> 
+                 <option value="red">Красный</option>
+                 <option value="yell">Желтый</option> 
+                 <option value="blue">Синий</option> 
+                 <option value="gray">Серый</option>
+                 <option value="green">Зеленый</option>
+            </select>
+             <br>
+             <label><input type="checkbox" name="mater" value="mat">Матовая поверхность</label>
+              <br>
+     <span><b>Комфорт</b></span>
+               <label><input type="checkbox" name="comf" value="kondz">Кондиционер</label> 
+               <label><input type="checkbox" name="comf" value="luk">Люк</label>
+               <label><input type="checkbox" name="comf" value="bort">Бортовой компьютер</label>
+               <label><input type="checkbox" name="comf" value="obogrevsid">Обогрев сидений</label> 
+               <label><input type="checkbox" name="comf" value="obogrevzer">Подогрев зеркал</label>
+               <label><input type="checkbox" name="comf" value="kozansalon">Кожаный салон</label>
+               <br>
+               <button type="submit">Поиск</button> 
+               <button type="reset">Сбросить</button>
+ </form>  
+</body>
+</html>
